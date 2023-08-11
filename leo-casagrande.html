@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>LÉO CASAGRANDE</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width-device-width, initial-scale-1">
+        <style>
+            
+			* {
+				box-sizing: border-box;
+			}
+
+			html {
+				margin: 0;
+				padding: 0;
+				font-family: serif;
+
+			}
+
+			body {
+				background-color:  black;
+			}
+
+			p {
+				color: white;
+				background-color: black;
+			}
+
+
+			a{
+				color:  black;
+				text-decoration: none;
+			}
+
+			ul {
+				background-color: yellow;
+			}
+
+			.navegacao {
+				background-color: black;
+			}
+
+			form div {
+				background-color: black;
+				border: 0;
+				border-bottom: 1px solid #33f;
+				/*
+				border-top: 1px solid #33f;
+				border-left: 1px solid #33f;
+				border-right: 1px solid #33f;
+				*/
+				margin: 10px 10px 20px 10px;
+				padding: 20px;
+			}
+
+			label {
+				margin-bottom: 10px;
+				font-size: 14px;
+				font-family: sans-serif;
+				font-weight: bold;
+				color: white;
+			}	
+
+			[type="text"], [type="email"], textarea, label {
+				width: 100%;
+				display: block;
+			}
+
+			header {
+				background-color: black;
+				padding: 30px;
+				text-align: center;
+				font-size: 35px;
+				color: yellow;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+				float: left;
+				width: 30%;
+						   
+				background: black;
+				padding: 20px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+				list-style-type: none;
+				padding: 0;
+			}
+
+
+			article {
+				float: left;
+				padding: 0px;
+				margin: 0px;
+				width: 70%;
+				background-color: yellow;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+				background: black;
+				content: "";
+				display: table;
+				clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+				background-color: black;
+				padding: 10px;
+				text-align: center;
+				color: ##FFFF00;
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 600px) {
+			nav, article {
+				width: 100%;
+				height: auto;
+			}
+
+			form div {
+				position: static;
+				position: relative;
+				margin-top: -10px;
+			}
+
+			label {
+				position: absolute;
+			}
+
+			.classe, #id, body {
+				/*...*/
+			}
+		}	
+        </style>
+
+        <body>
+
+            <header>
+                <h2>LÉO CASAGRANDE</h2>
+                    <tr>
+                        <td align="center">
+                            <img src="./imagens/leo-casagrande.jpeg" alt="foto">
+                        </td>
+                    </tr>
+    
+            </header>
+    
+            <section>
+    
+                <nav>
+                    <ul>
+                        <li><a href=https://soundcloud.com/leo-casagrande target="_blank">Soundcloud</a></li>
+                        <li><a href=https://www.instagram.com/leocasagrande/ target="_blank">Instagram</a></li>
+						<li><a href="https://www.leocasagrande.com.br/contato" target="_blank">Bookings</a></li>
+                    </ul>
+                </nav>
+    
+    
+                <article>
+    
+                    <p>Leo Casagrande começou sua carreira em 1994 e ao longo dos anos foi se especializando em cursos de áudio e tecnologia. Passou a temporada 2007/ 2008 em Londres/ UK, onde cursou o EMP (Eletronic Music Production), na Sound Audio Engennering (SAE Institute), escola conceituada e reconhecida mundialmente.
+
+                        Após alguns anos ministrando aulas de discotecagem e Produção Musical pelas melhores escolas de São Paulo e atuando como especialista de produto Ableton Live, Roland e Pioneer DJ na Expo Music e AES Brasil, Leo Casagrande entra para o seleto time de treinadores certificados da Ableton Live e lança seu próprio curso com metodologia exclusiva e estrutura impecável. À convite da marca Roland, foi especialista do sintetizador Gaia SH-01 e desenvolveu timbres lançados mundialmente.
+                        
+                        Com produções lançadas por selos do mundo inteiro, suas músicas são tocadas pelos melhores DJ’s ao redor do mundo.
+                        
+                        Apresentações nos melhores festivais e festas por todo o país consolidaram a sua carreia de DJ.
+                
+                        </p>
+    
+                </article>	
+    
+            </section>
+    
+            <footer>
+                <p>Desenvolvido por Daniele</p>
+            </footer>	
+    
+        </body>	
+        </html>

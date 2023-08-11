@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Daniele Home</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Estilos Personalizados -->
+		<link rel="stylesheet" type="text/css" href="./css/layout.css">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+	</head>
+
+    <header>
+        <h2>TRANCE FOR LIFE</h2>
+        <p>Conheça projetos de sucesso.</p>
+    </header>
+
+    <section>
+        
+        <div class="imgalign">
+
+            <p><img src="./imagens/altruism.jpeg" alt="foto" height="200" width="200"></p>
+            <li><a href="./altruism.html" target="_blank"><p>ALTRUISM</p></a></li>
+        </div>
+    
+        <div class="imgalign">
+    
+            <p><img src="./imagens/durs.jpg" alt="foto" height="200" width="200"></p>
+            <li><a href="./Durs.html" target="_blank"><p>DURS</p></a></li>
+        </div>
+    
+        <div class="imgalign">
+    
+            <p><img src="./imagens/boys.jpg" alt="foto" height="200" width="200"></p>
+            <li><a href="./yestermorrow2.html" target="_blank"><p>YESTERMORROW</p></a></li>
+        </div>
+
+        <div class="imgalign">
+    
+            <p><img src="./imagens/leo-casagrande.jpeg" alt="foto" height="200" width="200"></p>
+            <li><a href="./leo-casagrande.html" target="_blank"><p>LÉO CASAGRANDE</p></li></a>
+        </div>
+        
+    </section>
+
+    <section>
+
+        <article>
+            Aqui nessa plataforma você encontra os maiores sucessos do psytrance. Toda semana temos uma atualização nova. Novos projetos sempre. Plataforma dedicada apenas para isso.
+        </article>
+
+        <nav>
+            <ul>
+                <li align="border-right"><a href=danieleveronesi9@gmail.com target="_blank">Divulgue aqui</a></li>
+            </ul>
+        </nav>
+
+    </section>
+    
+    <footer>Desenvolvido por Daniele Veronesi</footer>
+
+    <audio controls id="music">
+
+        <source src="./sounds/yestermorrow.mp3" type="audio/mpeg">
+        
+        </audio>
+        
+        <button onclick="play()" type="button">Play </button>
+        
+        <button onclick="pause()" type="button">Pause</button>
+        
+         
+        
+        <script>
+        
+        var myMusic= document.getElementById("music");
+        
+        function play() {
+        
+        myMusic.play();
+        
+        }
+        
+         
+        
+        function pause() {
+        
+        myMusic.pause();
+        
+        }
+        
+        </script>
+
